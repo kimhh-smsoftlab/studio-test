@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><scrinfo hi5_version="1" version="1" scrid="bbb100004" menuno="b1000" control="grid,static,groupbox,button" scrname="현재가_뉴스" createid="hjh" createdate="20210202 18:06:23"><form id="form" style="left:0px;top:0px;width:320px;height:470px;" css="1" taborders="btn_post,btn_1"><![CDATA[.border{
+<?xml version="1.0" encoding="UTF-8"?><scrinfo hi5_version="1" version="1" scrid="bbb100004" menuno="b1000" control="grid,static,groupbox,button" scrname="현재가_뉴스" createid="khh123" createdate="20210203 17:45:20"><form id="form" style="left:0px;top:0px;width:320px;height:470px;" css="1" taborders="btn_post,btn_1"><![CDATA[.border{
 	 border-color: #c2c2c2;
 	 border:1px solid #c2c2c2;
 }
