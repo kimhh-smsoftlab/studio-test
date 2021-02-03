@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scrinfo hi5_version="1" version="1" scrid="aaalimcm1" menuno="alimc" control="radio" scrname="test1" createid="ksm610" createdate="20201223 14:59:47">
+    <form id="form" style="left:0px;top:0px;width:490px;height:480px;" taborders="rdo_1">
+        <radio id="rdo_1" style="left:15.91837%;top:24.58333%;width:37.14286%;height:6.66667%;position:absolute;" dispstyle="3" itemcount="3" colcount="3" selectindex="0">
+            <radio_item caption="AAA" value="1" disabled="0" visibility="1" width="60">
+                <substyle width="60" height="30"/>
+            </radio_item>
+            <radio_item caption="BBB" value="2" disabled="0" visibility="1" width="60">
+                <substyle width="60" height="30"/>
+            </radio_item>
+            <radio_item caption="CCC" value="3" disabled="0" visibility="1" width="60">
+                <substyle width="60" height="30"/>
+            </radio_item>
+        </radio>
+    </form>
+</scrinfo>

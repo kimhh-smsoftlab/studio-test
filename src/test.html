@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input-group{
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid black;
+        }
+        .input-group > input{
+            border: none;
+            outline: none;
+        }
+        #test{
+            width: 30px;
+            height: 30px;
+            background-image: url("./images/common.png");
+            background-repeat: no-repeat;
+            background-position: -101px -300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="input-group" style="width:130px">
+        <input type="text" disabled value="2021-02-03" style="width:90px">
+        <div id="test"></div>
+    </div>
+    <div>
+        <input type="date" style="pointer-events: none;">
+    </div>
+    <script>
+        debugger;
+        let dateEl = document.querySelector("input[type='date']")
+        dateEl.valueAsDate = new Date()
+        dateEl.parentElement.addEventListener("click", function(e){
+            console.log(dateEl.valueAsDate)
+        })        
+    </script>
+</body>
+</html>

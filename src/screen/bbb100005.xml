@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><scrinfo hi5_version="1" version="1" scrid="bbb100005" menuno="b1000" control="table,web,static,groupbox,label,button" scrname="현재가_뉴스상세" createid="hjh" createdate="20210201 19:11:36"><form id="form" style="left:0px;top:0px;width:320px;height:470px;" css="1" taborders="btn_m,btn_p"><![CDATA[.border{
+	 border-color: #c2c2c2;
+	 border:1px solid #c2c2c2;
+}
+ .btn_ctl {
+	 border : 1px solid #000000 
+}
+ .pq-header-outer .pq-grid-row {
+	 background: #c2ddecfa;
+}
+ .topborder{
+}
+ .size{
+	 height: Calc(100% - 88%) !important;
+}
+ .web{
+	 height: Calc(100% - 36%) !important;
+}]]><table id="Table_info" style="left:0.00000%;top:0px;width:100.00000%;height:14.89362%;position:absolute;" itemflag="2" rowheight="50%" rowcnt="2" colcnt="3" linecolor="{42}"><colgroup width="34.37500%,34.37500%,31.25000%"/><tbody><tr><td range="0,0,0,2" colspan="3" item="title" itemflag="0" style="background-color:{254};text-align:left;"/><td covered="1" style="display:none;"/><td covered="1" style="display:none;"/></tr><tr><td range="1,0" item="date" itemflag="0" style="background-color:{254};color:{7};font-size:11px;text-align:center;"/><td range="1,1" item="journal" itemflag="0" style="background-color:{254};color:{7};font-size:11px;text-align:left;"/><td range="1,2" item="jm_relate" itemflag="0" style="background-color:{254};color:RGB(29,33,83);font-size:11px;"/></tr></tbody></table><web id="web_1" style="left:0.00000%;top:22.97872%;width:100.00000%;height:64.25532%;position:absolute;" stylecolor="border-color:{8};" url="https://www.yna.co.kr/view/AKR20210128046451003?input=1195m" class="web"/><groupbox id="gb_3" style="left:0.00000%;top:87.23404%;width:100.00000%;height:60px;position:absolute;overflow-x:auto;" class="size"><label id="lb_2" style="left:0.00000%;top:0.00000%;width:100.00000%;height:33.33333%;position:absolute;border-width:0px;font-weight:bold;word-wrap:normal;" mask=",0,0,,0,1,0,0,0,,,"><multi_lang><![CDATA[{"caption":{"ko":"관련종목"}}]]></multi_lang></label><static id="st_1" style="left:0.00000%;top:33.33333%;width:100.00000%;height:66.66667%;position:absolute;word-wrap:normal;" singleline="1" class="scroll"><multi_lang><![CDATA[{"caption":{"ko":"삼성공조"}}]]></multi_lang></static></groupbox><static id="st_2" style="left:70.62500%;top:15.95745%;width:26.56250%;height:5.95745%;position:absolute;border-width:1px;border-style:solid;" singleline="1" stylecolor="border-color:{0?RGB(29,33,83)};"/><button id="btn_m" style="left:70.93750%;top:16.38298%;width:12.81250%;height:5.31915%;position:absolute;border-width:0px;" stylecolor="background-color:{1};border-color:{0?RGB(29,33,83)};color:{0?RGB(29,33,83)};" customcolor="activebgcolor:{1};disablebgcolor:{1};overbgcolor:{1};activefgcolor:{0?RGB(29,33,83)};disablefgcolor:{0?RGB(29,33,83)};overfgcolor:{0?RGB(29,33,83)};"><multi_lang><![CDATA[{"caption":{"ko":"가 -"}}]]></multi_lang></button><button id="btn_p" style="left:83.75000%;top:16.38298%;width:12.81250%;height:5.31915%;position:absolute;border-width:0px;" stylecolor="background-color:{1};border-color:{b26};color:{0?RGB(29,33,83)};" customcolor="activebgcolor:{1};disablebgcolor:{1};overbgcolor:{1};activefgcolor:{0?RGB(29,33,83)};disablefgcolor:{0?RGB(29,33,83)};overfgcolor:{0?RGB(29,33,83)};"><multi_lang><![CDATA[{"caption":{"ko":"가 +"}}]]></multi_lang></button></form></scrinfo>

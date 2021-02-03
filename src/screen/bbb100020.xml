@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><scrinfo hi5_version="1" version="1" scrid="bbb100020" menuno="b1000" control="password,groupbox,combo,formlink,tab" scrname="주식체결_체결" createid="hyun" createdate="20210125 17:03:58"><form id="form" style="left:0px;top:0px;width:320px;height:580px;" css="1" taborders="cb_1,pw_1,tab_1"><![CDATA[.tabtitle{
+	 border-right: 0px solid #5f5f5f !important;
+}
+ .clicked{
+	 border-bottom: 3px solid rgb(29,33,83) !important;
+	 font-weight: bold;
+}
+ .borderBottom{
+	 border-bottom: 1px solid rgb(29,33,83) !important;
+}
+ .hi5_formlink{
+	 height: Calc(100% - 80px);
+}]]><groupbox id="gb_1" style="left:0px;top:0px;width:100.00000%;height:6.89655%;position:absolute;"><groupbox id="gb_2" style="left:0.00000%;top:0.00000%;width:100.00000%;height:100.00000%;position:absolute;"><combo id="cb_1" style="left:3.43750%;top:12.50000%;width:73.75000%;height:75.00000%;position:absolute;"><options><![CDATA[{"datatype":"0","displaytype":"0","initindex":"0","listitem":[{"key":"1","multi_lang":{"ko":"111-10-711422 임창민"}},{"key":"2","multi_lang":{"ko":"111-87-711422 임창민"}}]}]]></options></combo><password id="pw_1" style="left:77.18750%;top:12.50000%;width:63px;height:75.00000%;position:absolute;margin:0px 5px 0px 5px;" maxlength="4" stylecolor="color:{9};border-color:{10};"><multi_lang><![CDATA[{"placeholder":{"ko":"비밀번호"}}]]></multi_lang></password></groupbox></groupbox><tab id="tab_1" style="left:0px;top:6.89655%;width:100.00000%;height:6.89655%;position:absolute;border-width:0px;" subtabinfo="1" stylecolor="background-color:{1};" customcolor="activefgcolor:{4};activebgcolor:{1};inactivebgcolor:{1};" currenttabid="1" tabcount="4" tabequaldiv="1" tabheight="40px" tabwidth="25.00000%"><tab_item no="0" tabid="1"><multi_lang><![CDATA[{"caption":{"ko":"체결"}}]]></multi_lang></tab_item><tab_item no="1" tabid="2"><multi_lang><![CDATA[{"caption":{"ko":"주식잔고"}}]]></multi_lang></tab_item><tab_item no="2" tabid="3"><multi_lang><![CDATA[{"caption":{"ko":"예수금"}}]]></multi_lang></tab_item><tab_item no="3" tabid="4"><multi_lang><![CDATA[{"caption":{"ko":"거래내역"}}]]></multi_lang></tab_item></tab><formlink id="formlink_1" style="left:0.00000%;top:13.79310%;width:100.00000%;height:86.20690%;position:absolute;border-style:none;"/></form></scrinfo>

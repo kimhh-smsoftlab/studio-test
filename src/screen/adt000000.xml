@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><scrinfo hi5_version="1" version="1" scrid="adtdialog" menuno="tdial" control="combo,calendar,button" scrname="다이얼로그 테스트" createid="hjh" createdate="20210201 14:18:37"><form id="form" style="left:0px;top:0px;width:320px;height:470px;" css="1" taborders="cb_1,btn_1,btn_2,cal_1,cal_2,cal_3,btn_3,btn_4"><![CDATA[.classname{
+	 color:#ffffff;
+}
+ .pq-header-outer .pq-grid-row {
+	 background: rgb(230,235,243);
+}
+ .table_ctl {
+	 border : 1px solid #000000 
+}]]><combo id="cb_1" style="left:5.00000%;top:17.44681%;width:40.31250%;height:4.25532%;position:absolute;"><options><![CDATA[{"datatype":"0","displaytype":"0","initindex":"0","listitem":[{"key":"1","multi_lang":{"ko":"테스트1"}},{"key":"2","multi_lang":{"ko":"테스트2"}},{"key":"3","multi_lang":{"ko":"테스트3"}},{"key":"4","multi_lang":{"ko":"테스트4"}},{"key":"5","multi_lang":{"ko":"테스트5"}}]}]]></options></combo><button id="btn_1" style="left:5.00000%;top:5.53191%;width:10.93750%;height:4.25532%;position:absolute;"><multi_lang><![CDATA[{"caption":{"ko":"닫기"}}]]></multi_lang></button><button id="btn_2" style="left:5.00000%;top:11.48936%;width:10.93750%;height:4.25532%;position:absolute;"><multi_lang><![CDATA[{"caption":{"ko":"취/확"}}]]></multi_lang></button><calendar id="cal_1" style="left:5.00000%;top:34.46809%;width:28.12500%;height:4.25532%;position:absolute;"/><calendar id="cal_2" style="left:5.00000%;top:40.42553%;width:28.12500%;height:4.25532%;position:absolute;"/><calendar id="cal_3" style="left:37.18750%;top:40.42553%;width:28.12500%;height:4.25532%;position:absolute;"/><button id="btn_3" style="left:25.31250%;top:5.53191%;width:10.93750%;height:4.25532%;position:absolute;"><multi_lang><![CDATA[{"caption":{"ko":"확인"}}]]></multi_lang></button><button id="btn_4" style="left:25.31250%;top:11.48936%;width:10.93750%;height:4.25532%;position:absolute;"><multi_lang><![CDATA[{"caption":{"ko":"아/예"}}]]></multi_lang></button></form></scrinfo>

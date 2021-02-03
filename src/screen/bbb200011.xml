@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><scrinfo hi5_version="1" version="1" scrid="bbb200011" menuno="b2000" control="label,formlink,button" scrname="관심편집_메인" createid="hyun" createdate="20210128 18:11:18"><form id="form" style="left:0px;top:0px;width:320px;height:580px;" css="1" taborders="btn_1,btn_2,btn_3"><![CDATA[.clickee{
+	 color:rgb(29,33,83);
+	 border:2px solid rgb(29,33,83) !important;
+	 font-weight: bold;
+}
+ .on-off-switch{
+	 opacity: 0.2;
+}
+ .clicked{
+	 border-bottom: 3px solid rgb(29,33,83)!important;
+	 font-weight: bold;
+}]]><formlink id="formlink_1" style="left:0.00000%;top:8.44828%;width:100.00000%;height:92.24138%;position:absolute;border-style:none;" class="proto"/><label id="lb_1" style="left:2.81250%;top:2.58621%;width:94.37500%;height:5.51724%;position:absolute;" mask=",0,0,,0,1,0,0,0,,,"/><button id="btn_1" style="left:3.12500%;top:2.75862%;width:31.25000%;height:5.17241%;position:absolute;border-width:0px;" stylecolor="background-color:{1};"><multi_lang><![CDATA[{"caption":{"ko":"종목편집"}}]]></multi_lang></button><button id="btn_2" style="left:34.37500%;top:2.75862%;width:31.25000%;height:5.17241%;position:absolute;border-width:0px;" class="not_opacity" stylecolor="background-color:{1};"><multi_lang><![CDATA[{"caption":{"ko":"그룹편집"}}]]></multi_lang></button><button id="btn_3" style="left:65.62500%;top:2.75862%;width:31.25000%;height:5.17241%;position:absolute;border-width:0px;" stylecolor="background-color:{1};"><multi_lang><![CDATA[{"caption":{"ko":"설정"}}]]></multi_lang></button></form></scrinfo>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><scrinfo hi5_version="1" version="1" scrid="bbb100004" menuno="b1000" control="grid,static,groupbox,button" scrname="현재가_뉴스" createid="hyun" createdate="20210128 17:01:29"><form id="form" style="left:0px;top:0px;width:320px;height:470px;" css="1" taborders="btn_post"><![CDATA[.border{
+	 border-color: #c2c2c2;
+	 border:1px solid #c2c2c2;
+}
+ .btn_ctl {
+	 border : 1px solid #000000 
+}
+ .pq-header-outer .pq-grid-row {
+	 background: #c2ddecfa;
+}
+ .clickik{
+	 color:rgb(29,33,83);
+	 border:2px solid rgb(29,33,83) !important;
+	 font-weight: bold;
+}
+ .pq-grid-row {
+	 background: #f4f4f5;
+}
+ .gbcalc{
+	 height: Calc(100%-9%) !important;
+}
+ .pq-table > .pq-grid-row > .pq-grid-cell.pq-focus{
+}
+ .move{
+	 transform: transLateY(10px);
+}
+ .move div{
+	 margin-bottom: 3% !important;
+}
+.pq-cont-inner .pq-td-border-top .pq-grid-row{
+    border-bottom-color : #c2c2c2 !important;
+}]]><groupbox id="gb_1" style="left:0.00000%;top:0.00000%;width:100.00000%;height:8.72340%;position:absolute;" stylecolor="border-color:{0};"><static id="st_1" style="left:2.50000%;top:9.75610%;width:56.87500%;height:75.60976%;position:absolute;border-width:1px;border-style:solid;" singleline="1"/><button id="btn_all" style="left:2.81250%;top:12.19512%;width:12.50000%;height:70.73171%;position:absolute;border-width:0px;" stylecolor="background-color:{1};" customcolor="activebgcolor:{1};disablebgcolor:{1};overbgcolor:{1};"><multi_lang><![CDATA[{"caption":{"ko":"전체"}}]]></multi_lang></button><button id="btn_news" style="left:15.31250%;top:12.19512%;width:12.50000%;height:70.73171%;position:absolute;border-width:0px;" stylecolor="background-color:{1};" customcolor="activebgcolor:{1};disablebgcolor:{1};overbgcolor:{1};"><multi_lang><![CDATA[{"caption":{"ko":"뉴스"}}]]></multi_lang></button><button id="btn_post" style="left:27.81250%;top:12.19512%;width:12.50000%;height:70.73171%;position:absolute;border-width:0px;" stylecolor="background-color:{1};" customcolor="activebgcolor:{1};disablebgcolor:{1};overbgcolor:{1};"><multi_lang><![CDATA[{"caption":{"ko":"공시"}}]]></multi_lang></button><button id="btn_dart" style="left:40.31250%;top:12.19512%;width:18.75000%;height:70.73171%;position:absolute;border-width:0px;" stylecolor="background-color:{1};" customcolor="activebgcolor:{1};disablebgcolor:{1};overbgcolor:{1};"><multi_lang><![CDATA[{"caption":{"ko":"Dart공시"}}]]></multi_lang></button></groupbox><groupbox id="gb_all" style="left:0.00000%;top:8.72340%;width:100.00000%;height:91.27660%;position:absolute;" class="gbcalc"><grid id="grd_all" style="left:0.00000%;top:0.00000%;position:absolute;" scrollmode="1" scrolloption="{'scrollbars':true,'scrollY':true,'scrollX':false}" linemode="1" rowheight="16%"><options><![CDATA[{"colModel":[{"cls":"move","dataIndx":"title","halign":"center","itemflag":"0","width":"99%"}],"columnBorders":false,"height":"100.00000%","rowBorders":true,"rowHt":70,"rowHtHead":70,"scrollModel":{"autoFit":false,"scrollmode":3},"showHeader":false,"width":"100.00000%"}]]></options></grid></groupbox><groupbox id="gb_news" style="left:0.00000%;top:8.72340%;width:100.00000%;height:91.27660%;position:absolute;"><grid id="grd_news" style="left:0.00000%;top:0.00000%;position:absolute;" scrollmode="1" scrolloption="{'scrollbars':true,'scrollY':true,'scrollX':false}" linemode="1" rowheight="16%"><options><![CDATA[{"colModel":[{"cls":"move","dataIndx":"news","halign":"center","itemflag":"0","width":"99%"}],"columnBorders":false,"height":"100.46620%","rowBorders":true,"rowHt":70,"rowHtHead":70,"scrollModel":{"autoFit":false,"scrollmode":3},"showHeader":false,"width":"100.00000%"}]]></options></grid></groupbox><groupbox id="gb_gongsi" style="left:0.00000%;top:8.72340%;width:100.00000%;height:91.27660%;position:absolute;"><grid id="grd_gongsi" style="left:0.00000%;top:0.00000%;position:absolute;" scrollmode="1" scrolloption="{'scrollbars':true,'scrollY':true,'scrollX':false}" linemode="1" rowheight="16%"><options><![CDATA[{"colModel":[{"cls":"move","dataIndx":"gongsi","halign":"center","itemflag":"0","width":"99%"}],"columnBorders":false,"height":"100.00000%","rowBorders":true,"rowHt":70,"rowHtHead":70,"scrollModel":{"autoFit":false,"scrollmode":3},"showHeader":false,"width":"100.00000%"}]]></options></grid></groupbox><groupbox id="gb_dart" style="left:0.00000%;top:8.72340%;width:100.00000%;height:91.27660%;position:absolute;"><grid id="grd_dart" style="left:0.00000%;top:0.00000%;position:absolute;" scrollmode="1" scrolloption="{'scrollbars':true,'scrollY':true,'scrollX':true}" linemode="1" rowheight="16%"><options><![CDATA[{"colModel":[{"cls":"move","dataIndx":"dart","halign":"center","itemflag":"0","width":"99%"}],"columnBorders":false,"height":"100.00000%","rowBorders":true,"rowHt":70,"rowHtHead":70,"scrollModel":{"autoFit":false,"scrollmode":3},"showHeader":false,"width":"100.00000%"}]]></options></grid></groupbox></form></scrinfo>

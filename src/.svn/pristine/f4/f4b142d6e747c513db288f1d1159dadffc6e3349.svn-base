@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><scrinfo hi5_version="1" version="1" scrid="bbb200101" menuno="b2001" control="grid" scrname="관심종목_빈그리드" createid="hyun" createdate="20210115 15:39:37"><form id="form" style="left:0px;top:0px;width:289px;height:540px;" css="1"><![CDATA[.pq-header-outer .pq-grid-row {
+	 background: rgb(230,235,243);
+}
+ .grid{
+	 border-top: 1px solid #c2c2c2;
+}]]><grid id="grd_1" style="left:0.00000%;top:0.00000%;position:absolute;border-width:0px;border-color:{43};border-style:dotted;" scrollmode="1" scrolloption="{'scrollbars':true,'scrollY':true,'scrollX':false}" linemode="1" rowheight="50px"><options><![CDATA[{"colModel":[{"align":"left","cls":"vertical","dataIndx":"hname","halign":"center","multi":{"ko":"종목명"},"width":100},{"dataIndx":"price","halign":"center","multi":{"ko":"현재가"},"width":85},{"dataIndx":"sign","halign":"center","symbolcolor":{"sign":true},"width":32},{"align":"center","cls":"move","dataIndx":"diff","halign":"center","multi":{"ko":"등락률"},"width":55}],"columnBorders":false,"height":"100.00000%","rowBorders":true,"rowHt":50,"rowHtHead":30,"scrollModel":{"autoFit":false,"scrollmode":3},"sortModel":{"on":true},"width":"100.00000%"}]]></options></grid></form></scrinfo>

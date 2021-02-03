@@ -1,0 +1,159 @@
+﻿var $hi5_comboJson = {
+    "orderType": [
+        { "0000": { "ko": "지정가", "en": "Limit", "jp": "指値", "zh":"限价" } },
+        { "1": { "ko": "시장가", "en": "Market", "jp": "成行", "zh":"市价" } },
+        { "2": { "ko": "지정가스탑", "en": "Stop Limit", "jp": "ストップ指値", "zh":"限价止损" } },
+        { "3": { "ko": "시장가스탑", "en": "Stop Market", "jp": "ストップ成行", "zh":"市价止损" } }
+    ],
+    "orderType2": [
+        { "0000": { "ko": "지정가", "en": "Limit", "jp": "通常" } },
+        { "0300": { "ko": "시장가", "en": "Market", "jp": "市場価格" } }
+    ],
+    "dateType": [
+        { "0": { "ko": "당일", "en": "Today", "jp": "当日" } },
+        { "1": { "ko": "1주", "en": "Week", "jp": "1週間" } },
+        { "2": { "ko": "1개월", "en": "Month", "jp": "1ヵ月" } },
+        { "3": { "ko": "기간선택", "en": "Select", "jp": "期間選択" } }
+    ],
+    "change": [
+        { "12": { "ko": "등락률 DESC", "en": "Change DESC", "jp": "当日" } },
+        { "11": { "ko": "등락률 ASC", "en": "Change ASC", "jp": "1週間" } },
+        { "82": { "ko": "거래대금 ASC", "en": "Amount ASC", "jp": "1ヵ月" } },
+        { "42": { "ko": "거래대금 DESC", "en": "Amount DESC", "jp": "期間選択" } },
+        { "81": { "ko": "거래량 ASC", "en": "Volume ASC ", "jp": "期間選択" } },
+        { "13": { "ko": "거래량 DESC", "en": "Volume DESC", "jp": "期間選択" } },
+        { "1": { "ko": "시가총액 ASC", "en": "Market Cap ASC", "jp": "期間選択" } },
+        { "2": { "ko": "시가총액 DESC", "en": "Market Cap DESC", "jp": "期間選択" } },
+        { "3": { "ko": "현재가 ASC", "en": "Price ASC", "jp": "期間選択" } },
+        { "4": { "ko": "현재가 DESC", "en": "Price DESC", "jp": "期間選択" } },
+        { "9": { "ko": "코인명 ASC", "en": "CoinName ASC", "jp": "期間選択" } },
+        { "10": { "ko": "코인명 DESC", "en": "CoinName DESC", "jp": "期間選択" } }
+    ],
+    "changem": [
+        { "82": { "ko": "거래대금 ASC", "en": "Amount ASC", "jp": "1ヵ月" } },
+        { "42": { "ko": "거래대금 DESC", "en": "Amount DESC", "jp": "期間選択" } },
+        { "3": { "ko": "현재가 ASC", "en": "Price ASC", "jp": "期間選択" } },
+        { "4": { "ko": "현재가 DESC", "en": "Price DESC", "jp": "期間選択" } },
+        { "9": { "ko": "코인명 ASC", "en": "CoinName ASC", "jp": "期間選択" } },
+        { "10": { "ko": "코인명 DESC", "en": "CoinName DESC", "jp": "期間選択" } }
+    ],
+    "tradingType": [
+        { "0": { "ko": "전체", "en": "All", "jp": "全体", "zh": "总体"  } },
+        { "1": { "ko": "매도", "en": "Sell", "jp": "売り", "zh": "卖出" } },
+        { "2": { "ko": "매수", "en": "Buy", "jp": "買い", "zh": "买入" } }
+    ],
+    "orderGB": [
+        { "0": { "ko": "전체", "en": "All", "jp": "全体" } },
+        { "2": { "ko": "미체결", "en": "Open", "jp": "米締結" } },
+        { "1": { "ko": "체결", "en": "Filled", "jp": "締結" } }
+    ],
+    "quaCB": [
+        { "0": { "ko": "수량선택", "en": "% QTY", "jp": "数量選択" } },
+        { "1": { "ko": "100%", "en": "100%", "jp": "100%" } },
+        { "2": { "ko": "75%", "en": "75%", "jp": "75%" } },
+        { "3": { "ko": "50%", "en": "50%", "jp": "50%" } },
+        { "4": { "ko": "25%", "en": "25%", "jp": "25%" } },
+        { "5": { "ko": "10%", "en": "10%", "jp": "10%" } }
+    ],
+
+    "slby_gb": [
+        { "": { "ko": "전체", "en": "All Trades", "jp": "全体", "zh": "总体" } },
+        { "1": { "ko": "매도", "en": "Sell", "jp": "売り", "zh": "卖出"  } },
+        { "2": { "ko": "매수", "en": "Buy", "jp": "買い", "zh": "买入"  } }
+    ],
+    "dWHistory": [
+        { "": { "ko": "전체", "en": "All", "jp": "全体", "zh": "总体" } },
+        { "1": { "ko": "출금", "en": "Withdraw", "jp": "出金", "zh": "提款" } },
+        { "2": { "ko": "입금", "en": "Deposit", "jp": "入金", "zh": "存款" } },
+        { "6": { "ko": "이체", "en": "Transfer", "jp": "振替", "zh": "转账" } }
+    ],
+    "proc_gbn": [
+        { "0": { "ko": "정상", "en": "New", "jp": "正常", "zh": "正常" } },
+        { "1": { "ko": "거절", "en": "Rejected", "jp": "拒否", "zh": "拒绝" } },
+        { "2": { "ko": "취소됨", "en": "Canceled", "jp": "取消済み", "zh": "已取消" } },
+        { "p": { "ko": "부분체결", "en": "Par. filled", "jp": "部分約定", "zh": "部分成交" } },
+        { "f": { "ko": "체결됨", "en": "Filled", "jp": "約定", "zh": "已成交" } },
+        { "C": { "ko": "취소", "en": "Cancel", "jp": "取消", "zh": "取消" } }
+    ],
+    "prst": [
+        { "0": { "ko": "미처리", "en": "Untreated", "jp": "未処理", "zh": "未处理" } },
+        { "1": { "ko": "대기", "en": "Waiting", "jp": "待機", "zh": "等待" } },
+        { "2": { "ko": "완료", "en": "Completed", "jp": "完了", "zh": "完成" } },
+        { "3": { "ko": "취소", "en": "Cancel", "jp": "取消", "zh": "取消" } }
+    ],
+    "ord_type": [
+        { "1": { "ko": "시장가", "en": "Market", "jp": "成行", "zh": "市价" } },
+        { "2": { "ko": "지정가", "en": "Limit", "jp": "指値", "zh": "限价" } },
+		{ "A": { "ko": "청산 지정가", "en": "Closed by Limit", "jp": "清算指値", "zh": "市价平仓" } },
+		{ "B": { "ko": "청산 시장가", "en": "Closed by Market", "jp": "清算成行", "zh": "限价平仓" } }
+    ],
+    "order_cancel": [
+        { "0": { "ko": "전체 취소", "en": "Cancel All", "jp": "全部取消", "zh": "全部取消" } },
+        { "2": { "ko": "지정가", "en": "Limit", "jp": "指値", "zh": "限价" } },
+        { "1": { "ko": "시장가", "en": "Market", "jp": "成行", "zh": "市价" } }
+    ],
+    "trigger_type": [
+        { "1": { "ko": "최종", "en": "Last", "jp": "" } },
+        { "2": { "ko": "지수", "en": "Index", "jp": "" } },
+        { "3": { "ko": "공정가격", "en": "MarkPrice", "jp": "" } }
+    ],
+    "bbgb": [
+        { "1": { "ko": "V", "en": "V", "jp": "V", "zh": "V" } },
+        { "2": { "ko": "", "en": "", "jp":"", "zh": "" } },
+        { "8": { "ko": "V", "en": "V", "jp": "V" ,"zh": "V" } },
+        { "9": { "ko": "V", "en": "V", "jp": "V" ,"zh": "V" } }
+    ],
+    "ord_stat": [
+        { "1": { "ko": "주문대기", "en": "Pending", "jp": "" } },
+        { "2": { "ko": "주문완료", "en": "Completed", "jp": "" } },
+        { "4": { "ko": "주문취소", "en": "Canceled", "jp": "" } },
+        { "8": { "ko": "Over Night종료", "en": "Over Night", "jp": "" } },
+        { "9": { "ko": "주문실패", "en": "Rejected", "jp": "" } }
+    ],
+    "jikb": [
+        { "1": { "ko": "일반", "en": "Common", "jp": "一般", "zh": "一般"} },
+        { "2": { "ko": "특수", "en": "Exceptional", "jp": "特殊", "zh": "特殊"} },
+        { "3": { "ko": "바이패스 시스템", "en": "System Bypass", "jp": "バイパスシステム", "zh": "Bypass系统"} },
+        { "4": { "ko": "간편결제", "en": "Easy payment", "jp": "簡単支払", "zh": "简便结算"} },
+        { "5": { "ko": "IEO", "en": "IEO", "jp": "IEO", "zh": "IEO"} },
+        { "6": { "ko": "이체", "en": "Transfer", "jp": "振替", "zh": "转账"} },
+        { "7": { "ko": "이벤트", "en": "Event", "jp": "イベント", "zh": "活动"} },
+        { "8": { "ko": "BPX 거래리워드", "en": "BPX Trade Reward", "jp": "BPX取引報酬", "zh": "BPX奖励"} },
+        { "9": { "ko": "스테이크 기본 리워드", "en": "Stake Basic Reward", "jp": "ステーキング基本報酬", "zh": "锁仓基本奖励"} },
+        { "a": { "ko": "스테이크 기본 리워드", "en": "Stake Basic Reward", "jp": "ステーキング基本報酬", "zh": "锁仓基本奖励"} },
+        { "b": { "ko": "채굴(추천인)", "en": "BPX Referral Reward", "jp": "採掘(推薦人)", "zh": "挖矿（推荐人）"} },
+        { "c": { "ko": "보험료(보험금)", "en": "Insurance Premium(Refund)", "jp": "保険料", "zh": "保险费（保险金）"} },
+        { "d": { "ko": "스테이크 등급", "en": "Stake Bonus Reward", "jp": "ステーキング等級", "zh": "锁仓等级"} },
+        { "e": { "ko": "채굴(추천인)", "en": "BPX Referral Reward", "jp": "採掘(推薦人)", "zh": "挖矿（推荐人）"} }
+    ],
+    "stls_bbgb": [
+        { "N": { "ko": "일반주문", "en": "Nomal", "jp": "" } },
+        { "1": { "ko": "CloseOnTrigger", "en": "CloseOnTrigger", "jp": "" } },
+        { "2": { "ko": "UnTrigger", "en": "UnTrigger", "jp": "" } },
+        { "O": { "ko": "OrderStopLoss", "en": "OrderStopLoss", "jp": "" } }
+    ],
+	 "Orders_gb":[
+		{ "0": {"ko": "미체결 주문", "en": "Active Orders", "jp": "アクティブな注文", "zh": "未成交委托"} },
+        { "1": {"ko": "체결 내역", "en": "Fills", "jp": "約定", "zh": "成交历史"} },
+		{ "2": {"ko": "스탑주문", "en": "Stops", "jp": "ストップ", "zh": "止损委托"} }
+    ],
+	 "tifOption_gb":[
+		{ "1": {"ko": "취소할 때까지 유효", "en": "GoodTillCancel", "jp": "取消まで有効", "zh": "撤销前有效"} },
+        { "3": {"ko": "즉시체결조건", "en": "ImmediateOrCancel", "jp": "即時約定条件", "zh": "立即成交条件"} },
+		{ "2": {"ko": "전량충족조건(FOK)", "en": "FillOrKill", "jp": "全量充足条件(FOK)", "zh": "余量充足条件(FOK)"} }
+    ],
+    "constract_historical":[
+        { "0": {"ko": "보험거래내역", "en": "Insurance History", "jp": "保険取引履歴", "zh": "保险交易明细"} },
+        { "1": {"ko": "펀딩내역", "en": "Funding History", "jp": "資金調達履歴", "zh": "资金明细"} }
+    ],
+    "positionComb":[
+        { "1": {"ko": "포지션", "en": "Position", "jp": "ポジション", "zh": "仓位"} },
+        { "0": {"ko": "종료된 포지션", "en": "Closed Position", "jp": "終了ポジション", "zh": "已终止仓位"} }
+    ],
+	"InsuranceStatus": [
+        { "1": { "ko": "신규진입대기", "en": "Open To New Entry", "jp": "新規参入を待機", "zh": "等待全新开仓" } },
+        { "2": { "ko": "재진입대기", "en": "Open To Re-Entry", "jp": "再参入を待機", "zh": "等待再次开仓" } },
+        { "3": { "ko": "거래진행중", "en": "Position Taken", "jp": "取引進行中", "zh": "交易进行中" } },
+        { "4": { "ko": "보험금수령대기중", "en": "Pending Refund", "jp": "保険金受領を待機中", "zh": "正在等待收取保证金" } }
+    ]
+}
